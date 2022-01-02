@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt lại mật khẩu</title>
+</head>
+
+<body>
+    <center style="min-width:580px;width:100%">
+
+        <table align="center"
+            style="margin:0 auto;background:#f3f3f3;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;vertical-align:top;width:100%">
+            <tbody>
+                <tr
+                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                    <td
+                        style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                        <table align="center" class="m_7498293175183226741container"
+                            style="margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margin:0 auto;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:inherit;vertical-align:top;width:580px">
+                            <tbody>
+                                <tr
+                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                    <td
+                                        style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                        <table align="center"
+                                            style="background:#f3f3f3;border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                                <tr
+                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                    <td
+                                                        style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                        <table
+                                                            style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                            <tbody>
+                                                                <tr
+                                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                    <td height="16"
+                                                                        style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:16px;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                        &nbsp;
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table
+                                            style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                                <tr
+                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                    <td height="15"
+                                                        style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;line-height:15px;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                        &nbsp;
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table
+                                            style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                                <tr
+                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                    <th class="m_7498293175183226741small-12 m_7498293175183226741columns"
+                                                        style="margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                        <table
+                                                            style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                            <tbody>
+                                                                <tr
+                                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                    <th
+                                                                        style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                        <h1
+                                                                            style="margin:0;margin-bottom:10px;color:inherit;font-family:'Open Sans',sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                            Lấy
+                                                                            lại
+                                                                            <span class="il">mật</span>
+                                                                            <span class="il">khẩu</span>
+                                                                            tài
+                                                                            khoản
+                                                                        </h1>
+                                                                        <em><span
+                                                                                style="font-family:'Open Sans',sans-serif;font-size:14px">Kính
+                                                                                gửi:</span></em><span
+                                                                            style="font-family:'Open Sans',sans-serif"><span
+                                                                                style="font-size:14px">&nbsp;Quý
+                                                                                khách
+                                                                                <strong>{{$data[1]}}</strong>,</span></span>
+                                                                        <p
+                                                                            style="margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Open Sans',sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">
+                                                                            Để
+                                                                            tạo
+                                                                            <span class="il">mật</span>
+                                                                            <span class="il">khẩu</span>
+                                                                            mới,
+                                                                            Quý
+                                                                            khách
+                                                                            vui
+                                                                            lòng
+                                                                            truy cập liên kết sau :
+                                                                        </p>
+                                                                        <center style="min-width:532px;width:100%">
+                                                                            <table
+                                                                                style="margin:0 0 16px 0;border-collapse:collapse;border-spacing:0;float:none;margin:0 0 16px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;vertical-align:top;width:auto">
+                                                                                <tbody>
+                                                                                    <tr
+                                                                                        style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                        <td
+                                                                                            style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                            <table
+                                                                                                style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                                <tbody>
+                                                                                                    <tr
+                                                                                                        style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                        <td
+                                                                                                            style="margin:0;background:#2199e8;border:none;border-collapse:collapse!important;border-radius:3px;color:#fefefe;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                            <a href="http://wuhwohdk.nethost-5011.000nethost.com/dat-lai-mat-khau?email={{$data[1]}}&code={{$data[0]}}">
+                                                                                                            <b
+                                                                                                                style="border:0 solid #2199e8;border-radius:3px;color:#fefefe;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.3;padding:8px 16px 8px 16px;text-align:left;text-decoration:none">
+                                                                                                                <span
+                                                                                                                    class="il">Nhấn vào đây</span>
+                                                                                                            </b>
+                                                                                                        </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </center>
+                                                                        <table
+                                                                            style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                            <tbody>
+                                                                                <tr
+                                                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                    <td height="15"
+                                                                                        style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;line-height:15px;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                        &nbsp;
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                        <p
+                                                                            style="margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Open Sans',sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">
+                                                                            Trong
+                                                                            trường
+                                                                            hợp
+                                                                            Quý
+                                                                            khách
+                                                                            không
+                                                                            thực
+                                                                            hiện
+                                                                            hành
+                                                                            động
+                                                                            này,
+                                                                            vui
+                                                                            lòng
+                                                                            liên
+                                                                            hệ
+                                                                            với
+                                                                            KTX Mỹ Đình.
+                                                                        </p>
+                                                                    </th>
+                                                                    <th
+                                                                        style="margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:0;word-wrap:break-word">
+                                                                    </th>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table align="center"
+            style="Margin:0 auto;background:#f3f3f3;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;vertical-align:top;width:100%">
+            <tbody>
+                <tr
+                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                    <td
+                        style="Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                        <table align="center" class="m_7498293175183226741container"
+                            style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margin:0 auto;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:inherit;vertical-align:top;width:580px">
+                            <tbody>
+                                <tr
+                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                    <td
+                                        style="Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                        <table
+                                            style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                                <tr
+                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                    <th class="m_7498293175183226741small-12 m_7498293175183226741columns"
+                                                        style="Margin:0 auto;border-bottom:1px dashed #cecece!important;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding-bottom:8px!important;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                        <table
+                                                            style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                            <tbody>
+                                                                <tr
+                                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                    <th
+                                                                        style="Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                        <p
+                                                                            style="Margin:0;Margin-bottom:10px;color:#727272;font-family:'Open Sans',sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">
+                                                                            Trân
+                                                                            trọng,​
+                                                                        </p>
+                                                                        <p
+                                                                            style="Margin:0;Margin-bottom:10px;color:#727272;font-family:'Open Sans',sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">
+                                                                            KTX Mỹ Đình .
+                                                                        </p>
+                                                                        <p
+                                                                            style="Margin:0;Margin-bottom:10px;color:#727272;font-family:'Open Sans',sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0!important;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">
+                                                                            Quý
+                                                                            khách
+                                                                            vui
+                                                                            lòng
+                                                                            đánh
+                                                                            giá
+                                                                            chất
+                                                                            lượng
+                                                                            sản
+                                                                            phẩm
+                                                                            và
+                                                                            dịch
+                                                                            vụ
+                                                                            ,
+                                                                            ý
+                                                                            kiến
+                                                                            đóng
+                                                                            góp
+                                                                            của
+                                                                            Quý
+                                                                            khách
+                                                                            sẽ
+                                                                            giúp
+                                                                            cải
+                                                                            thiện
+                                                                            sản
+                                                                            phẩm
+                                                                            và
+                                                                            dịch
+                                                                            vụ
+                                                                            của
+                                                                            chúng
+                                                                            tôi.
+                                                                        </p>
+                                                                    </th>
+                                                                    <th
+                                                                        style="Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:0;word-wrap:break-word">
+                                                                    </th>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table
+                                            style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                            <tbody>
+                                                <tr
+                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                    <td height="10"
+                                                        style="Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;line-height:10px;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                        &nbsp;
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+
+</html>

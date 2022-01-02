@@ -1,0 +1,755 @@
+Domain: http://127.0.0.1:8000
+- Unit_asset
+    + List unit_asset
+        * URI: /api/unit_assets
+        * Method: GET
+        * Request:{Domain}/api/unit_assets
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": [
+                        {
+                            "id": 1,
+                            "name": "abc",
+                            "created_at": null,
+                            "updated_at": null,
+                            "assets": []
+                        },
+                        ............................
+                    ]
+                }
+        
+    + Create unit_asset
+        * URI: /api/unit_assets
+        * Method: POST
+        * Request:
+            {
+                "name": "new item"
+            }
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 12,
+                        "name": "new item",
+                        "updated_at": "2021-11-01T13:49:31.000000Z",
+                        "created_at": "2021-11-01T13:49:31.000000Z"
+                    },
+                    "message": "Thêm thành công"
+                }
+            False:
+                + Tên đã tồn tại:
+                    {
+                        "errors": {
+                            "name": [
+                                "Tên này đã tồn tại"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Chưa nhập tên
+                    {
+                        "errors": {
+                            "name": [
+                                "Mời bạn nhập tên trường"
+                            ]
+                        },
+                        "status": false
+                    }
+    
+    + Update unit_asset
+        * URI: /api/unit_assets/{$id}
+        * Method: PUT
+        * Request:
+            {
+                "name": "new item 2"
+            }
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 2,
+                        "name": "new item 2",
+                        "created_at": "2021-10-30T12:09:11.000000Z",
+                        "updated_at": "2021-11-01T13:57:09.000000Z"
+                    },
+                    "message": "Cập nhật thành công"
+                }
+            False:
+                + Id không tồn tại:
+                    {
+                        "errors": {
+                            "name": [
+                                "Tên này đã tồn tại"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Chưa nhập tên
+                    {
+                        "errors": {
+                            "name": [
+                                "Mời bạn nhập tên trường"
+                            ]
+                        },
+                        "status": false
+                    }
+
+    + Show unit_asset
+        * URI: /api/unit_assets/{$id}
+        * Method: GET
+        * Request:{Domain}/api/unit_assets/{$id}
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 4,
+                        "name": "vandu1234",
+                        "created_at": "2021-10-30T11:05:11.000000Z",
+                        "updated_at": "2021-10-30T14:16:15.000000Z"
+                    },
+                    "message": ""
+                }
+            False: Không tồn tại id
+                {
+                    "status": false,
+                    "code": 404,
+                    "data": [
+                        "Đường dẫn không tồn tại"
+                    ],
+                    "message": ""
+                }
+    
+    + Delete unit_asset
+        * URI: /api/unit_assets/{$id}
+        * Method: DELETE
+        * Request:{Domain}/api/unit_assets/{$id}
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 2,
+                        "name": "new item 2",
+                        "created_at": "2021-10-30T12:09:11.000000Z",
+                        "updated_at": "2021-11-01T13:57:09.000000Z"
+                    },
+                    "message": "Xóa Thành công"
+                }
+            False: Không tồn tại id
+                {
+                    "status": false,
+                    "code": 404,
+                    "data": [
+                        "Đường dẫn không tồn tại"
+                    ],
+                    "message": ""
+                }
+- Type_asset
+    + List type_asset
+        * URI: /api/type_assets
+        * Method: GET
+        * Request:{Domain}/api/type_assets
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": [
+                        {
+                            "id": 3,
+                            "name": "rtttwrtw",
+                            "created_at": "2021-10-30T13:16:34.000000Z",
+                            "updated_at": "2021-10-30T13:16:34.000000Z",
+                            "assets": []
+                        },
+                        .......................
+                    ]
+                }
+    
+    + Create type_asset
+        * URI: /api/type_assets
+        * Method: POST
+        * Request:
+            {
+                "name": "new item"
+            }
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 10,
+                        "name": "new item",
+                        "updated_at": "2021-11-01T14:12:32.000000Z",
+                        "created_at": "2021-11-01T14:12:32.000000Z"
+                    },
+                    "message": "Thêm thành công"
+                }
+            False:
+                + Tên đã tồn tại:
+                    {
+                        "errors": {
+                            "name": [
+                                "Tên này đã tồn tại"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Chưa nhập tên
+                    {
+                        "errors": {
+                            "name": [
+                                "Mời bạn nhập tên trường"
+                            ]
+                        },
+                        "status": false
+                    }
+    
+    + Update type_asset
+        * URI: /api/type_assets/{$id}
+        * Method: PUT
+        * Request:
+            {
+                "name": "new item 2"
+            }
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 2,
+                        "name": "new item 2",
+                        "created_at": "2021-10-30T12:09:11.000000Z",
+                        "updated_at": "2021-11-01T13:57:09.000000Z"
+                    },
+                    "message": "Cập nhật thành công"
+                }
+            False:
+                + Id không tồn tại:
+                    {
+                        "errors": {
+                            "name": [
+                                "Tên này đã tồn tại"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Chưa nhập tên
+                    {
+                        "errors": {
+                            "name": [
+                                "Mời bạn nhập tên trường"
+                            ]
+                        },
+                        "status": false
+                    }         
+    
+    + Show type_asset
+        * URI: /api/type_assets/{$id}
+        * Method: GET
+        * Request:{Domain}/api/type_assets/{$id}
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 4,
+                        "name": "vandu1234",
+                        "created_at": "2021-10-30T11:05:11.000000Z",
+                        "updated_at": "2021-10-30T14:16:15.000000Z"
+                    },
+                    "message": ""
+                }
+            False: Không tồn tại id
+                {
+                    "status": false,
+                    "code": 404,
+                    "data": [
+                        "Đường dẫn không tồn tại"
+                    ],
+                    "message": ""
+                }
+    
+    + Delete type_asset
+        * URI: /api/type_assets/{$id}
+        * Method: DELETE
+        * Request:{Domain}/api/type_assets/{$id}
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 2,
+                        "name": "new item 2",
+                        "created_at": "2021-10-30T12:09:11.000000Z",
+                        "updated_at": "2021-11-01T13:57:09.000000Z"
+                    },
+                    "message": "Xóa Thành công"
+                }
+            False: Không tồn tại id
+                {
+                    "status": false,
+                    "code": 404,
+                    "data": [
+                        "Đường dẫn không tồn tại"
+                    ],
+                    "message": ""
+                }
+- Producer
+    + List producer
+        * URI: /api/producers
+        * Method: GET
+        * Request:{Domain}/api/producers
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": [
+                        {
+                            "id": 2,
+                            "name": "văn du",
+                            "created_at": null,
+                            "updated_at": null,
+                            "assets": [
+                                {
+                                    "id": 5,
+                                    "name": "as2",
+                                    "producer_id": 2,
+                                    "unit_asset_id": 5,
+                                    "price": 123456,
+                                    "min_inventory": 1,
+                                    "description": "fdafa",
+                                    "image": "dfaa",
+                                    "asset_type_id": 4,
+                                    "created_at": null,
+                                    "updated_at": null
+                                },
+                                .....................
+                            ]
+                        },
+                        .......................
+                    ]
+                }
+    
+    + Create producer
+        * URI: /api/producers
+        * Method: POST
+        * Request:
+            {
+                "name": "new item"
+            }
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 10,
+                        "name": "new item",
+                        "updated_at": "2021-11-01T14:12:32.000000Z",
+                        "created_at": "2021-11-01T14:12:32.000000Z"
+                    },
+                    "message": "Thêm thành công"
+                }
+            False:
+                + Tên đã tồn tại:
+                    {
+                        "errors": {
+                            "name": [
+                                "Tên này đã tồn tại"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Chưa nhập tên
+                    {
+                        "errors": {
+                            "name": [
+                                "Mời bạn nhập tên trường"
+                            ]
+                        },
+                        "status": false
+                    }
+    
+    + Update producer
+        * URI: /api/producers/{$id}
+        * Method: PUT
+        * Request:
+            {
+                "name": "new item 2"
+            }
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 2,
+                        "name": "new item 2",
+                        "created_at": "2021-10-30T12:09:11.000000Z",
+                        "updated_at": "2021-11-01T13:57:09.000000Z"
+                    },
+                    "message": "Cập nhật thành công"
+                }
+            False:
+                + Id không tồn tại:
+                    {
+                        "errors": {
+                            "name": [
+                                "Tên này đã tồn tại"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Chưa nhập tên
+                    {
+                        "errors": {
+                            "name": [
+                                "Mời bạn nhập tên trường"
+                            ]
+                        },
+                        "status": false
+                    }         
+    
+    + Show producer
+        * URI: /api/producers/{$id}
+        * Method: GET
+        * Request:{Domain}/api/producers/{$id}
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 4,
+                        "name": "vandu1234",
+                        "created_at": "2021-10-30T11:05:11.000000Z",
+                        "updated_at": "2021-10-30T14:16:15.000000Z"
+                    },
+                    "message": ""
+                }
+            False: Không tồn tại id
+                {
+                    "status": false,
+                    "code": 404,
+                    "data": [
+                        "Đường dẫn không tồn tại"
+                    ],
+                    "message": ""
+                }
+    
+    + Delete producer
+        * URI: /api/producers/{$id}
+        * Method: DELETE
+        * Request:{Domain}/api/producers/{$id}
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 2,
+                        "name": "new item 2",
+                        "created_at": "2021-10-30T12:09:11.000000Z",
+                        "updated_at": "2021-11-01T13:57:09.000000Z"
+                    },
+                    "message": "Xóa Thành công"
+                }
+            False: Không tồn tại id
+                {
+                    "status": false,
+                    "code": 404,
+                    "data": [
+                        "Đường dẫn không tồn tại"
+                    ],
+                    "message": ""
+                }
+- Assets
+    + List asset
+        * URI: /api/assets
+        * Method: GET
+        * Request:{Domain}/api/assets
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "current_page": 1,
+                        "data": [
+                            {
+                                "id": 5,
+                                "name": "as2",
+                                "producer_id": 2,
+                                "unit_asset_id": 5,
+                                "price": 123456,
+                                "min_inventory": 1,
+                                "description": "fdafa",
+                                "image": "dfaa",
+                                "asset_type_id": 4,
+                                "created_at": null,
+                                "updated_at": null,
+                                "producer": {
+                                    "id": 2,
+                                    "name": "văn du",
+                                    "created_at": null,
+                                    "updated_at": null
+                                },
+                                "unit_asset": {
+                                    "id": 5,
+                                    "name": "abcdef",
+                                    "created_at": "2021-10-30T11:16:02.000000Z",
+                                    "updated_at": "2021-10-30T11:16:02.000000Z"
+                                },
+                                "type_asset": {
+                                    "id": 4,
+                                    "name": "123dffadaf",
+                                    "created_at": "2021-10-30T13:25:37.000000Z",
+                                    "updated_at": "2021-10-30T13:25:37.000000Z"
+                                }
+                            },
+                            .........................
+                        ]
+                    }
+                }
+    
+    + Create asset
+        * URI: /api/assets
+        * Method: POST
+        * Request:
+            {
+                "name": "as5",
+                "producer_id": 2,
+                "unit_asset_id": 5,
+                "price": 1000,
+                "min_inventory": 34,
+                "description": "dkhkdah",
+                "image": "abc.jpg",
+                "asset_type_id": 4
+            }
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "name": "as6",
+                        "price": 1000,
+                        "min_inventory": 34,
+                        "description": "dkhkdah",
+                        "image": "abc.jpg",
+                        "unit_asset_id": 5,
+                        "producer_id": 2,
+                        "asset_type_id": 4,
+                        "updated_at": "2021-11-01T14:30:31.000000Z",
+                        "created_at": "2021-11-01T14:30:31.000000Z",
+                        "id": 18
+                    },
+                    "message": "Thêm thành công"
+                }
+            False:
+                + Tên đã tồn tại:
+                    {
+                        "errors": {
+                            "name": [
+                                "Tên này đã tồn tại"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Chưa nhập name/price/description
+                    {
+                        "errors": {
+                            "name": [
+                                "Mời bạn nhập tên trường"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Price < 1000, price nhập chữ
+                    {
+                        "errors": {
+                            "price": [
+                                "Giá phải lớn hơn 1000"
+                            ]
+                        },
+                        "status": false
+                    }
+                    {
+                        "errors": {
+                            "price": [
+                                "Giá phải là số",
+                                "Giá phải lớn hơn 1000"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Min_inventory < 0
+                    {
+                        "errors": {
+                            "min_inventory": [
+                                "Số lượng phải > 0"
+                            ]
+                        },
+                        "status": false
+                    }
+    
+    + Update asset
+        * URI: /api/assets/{$id}
+        * Method: PUT
+        * Request:
+            {
+                "name": "as6",
+                "producer_id": 2,
+                "unit_asset_id": 5,
+                "price": "fdafa",
+                "min_inventory": 34,
+                "description": "dkhkdah",
+                "image": "abc.jpg",
+                "asset_type_id": 4
+            }
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 2,
+                        "name": "new item 2",
+                        "created_at": "2021-10-30T12:09:11.000000Z",
+                        "updated_at": "2021-11-01T13:57:09.000000Z"
+                    },
+                    "message": "Cập nhật thành công"
+                }
+            False:
+                + Tên đã tồn tại:
+                    {
+                        "errors": {
+                            "name": [
+                                "Tên này đã tồn tại"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Chưa nhập name/price/description
+                    {
+                        "errors": {
+                            "name": [
+                                "Mời bạn nhập tên trường"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Price < 1000, price nhập chữ
+                    {
+                        "errors": {
+                            "price": [
+                                "Giá phải lớn hơn 1000"
+                            ]
+                        },
+                        "status": false
+                    }
+                    {
+                        "errors": {
+                            "price": [
+                                "Giá phải là số",
+                                "Giá phải lớn hơn 1000"
+                            ]
+                        },
+                        "status": false
+                    }
+                + Min_inventory < 0
+                    {
+                        "errors": {
+                            "min_inventory": [
+                                "Số lượng phải > 0"
+                            ]
+                        },
+                        "status": false
+                    }       
+    
+    + Show asset
+        * URI: /api/assets/{$id}
+        * Method: GET
+        * Request:{Domain}/api/assets/{$id}
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 5,
+                        "name": "as2",
+                        "producer_id": 2,
+                        "unit_asset_id": 5,
+                        "price": 123456,
+                        "min_inventory": 1,
+                        "description": "fdafa",
+                        "image": "dfaa",
+                        "asset_type_id": 4,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                    "message": ""
+                }
+            False: Không tồn tại id
+                {
+                    "status": false,
+                    "code": 404,
+                    "data": [
+                        "Đường dẫn không tồn tại"
+                    ],
+                    "message": ""
+                }
+    
+    + Delete asset
+        * URI: /api/assets/{$id}
+        * Method: DELETE
+        * Request:{Domain}/api/assets/{$id}
+        * Response:
+            Success:
+                {
+                    "status": true,
+                    "code": 200,
+                    "data": {
+                        "id": 5,
+                        "name": "as2",
+                        "producer_id": 2,
+                        "unit_asset_id": 5,
+                        "price": 123456,
+                        "min_inventory": 1,
+                        "description": "fdafa",
+                        "image": "dfaa",
+                        "asset_type_id": 4,
+                        "created_at": null,
+                        "updated_at": null
+                    }
+                    "message": "Xóa Thành công"
+                }
+            False: Không tồn tại id
+                {
+                    "status": false,
+                    "code": 404,
+                    "data": [
+                        "Đường dẫn không tồn tại"
+                    ],
+                    "message": ""
+                }
+
+
+    
