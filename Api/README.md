@@ -1,6 +1,6 @@
 # Cách cài đặt dự án để chạy
 
-        composer install
+        composer install hoac composer install  --ignore-platform-reqs --no-scripts --no-plugins
 
         cp .env.example .env
 
