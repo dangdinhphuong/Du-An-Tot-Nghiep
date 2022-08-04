@@ -22,17 +22,17 @@ class AuthServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {
-        $this->registerPolicies();
-        // Permissions::where('parent_id', '>', '0')->get()->map(function ($permission) {
-        //     Gate::define($permission->key_code, function (User $user) use ($permission) {
-        //         $role = $user->role;
-        //         $permissions = $role->permissions;
-        //         if ($permissions->contains('key_code', $permission->key_code)) {
-        //             return true;
-        //         }
-        //         return Response::deny('Bạn không có quyền truy cập !');
-        //     });
-        // });
+    {        $this->registerPolicies();
+        Permissions::where('parent_id', '>', '0')->get()->map(function ($permission) {
+            Gate::define($permission->key_code, function (User $user) use ($permission) {
+                $role = $user->role;
+                $permissions = $role->permissions;
+                if ($permissions->contains('key_code', $permission->key_code)) {
+                    return true;
+                }
+                return Response::deny('Bạn không có quyền truy cập !');
+            });
+        });
+
     }
 }

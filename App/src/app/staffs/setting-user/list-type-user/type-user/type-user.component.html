@@ -8,6 +8,12 @@
             text-white
             hover:border-main hover:border hover:bg-white hover:text-main" (click)="openDialogCreate()">Tạo
                 mới</button>
+
+                <button class="px-2 mx-2
+                bg-main
+                rounded-md
+                text-white
+                hover:border-main hover:border hover:bg-white hover:text-main" ><a routerLink="/quan-tri-vien/cai-dat/phan-quyen"> Phân quyền</a></button>
         </div>
         <div *ngIf="roles[0]?.id; else noData" class="mt-2 overflow-auto">
             <table mat-table [dataSource]="roles" class="w-full px-1">

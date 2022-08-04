@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Auth;
 if (!function_exists('baseGate')) {
     function baseGate($roleName = '')
     {
-
         $role = Roles::find(auth()->user()->role_id);
         //   dd($roleName,$role->permissions[0]);
         $permissions = $role->permissions;
@@ -16,7 +15,7 @@ if (!function_exists('baseGate')) {
             if ($permission->key_code == $roleName) {
                 return true;
             }
-            //return false;
+            // return false;
         }
     }
 }

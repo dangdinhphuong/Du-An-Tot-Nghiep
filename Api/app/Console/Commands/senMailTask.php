@@ -61,7 +61,6 @@ class senMailTask extends Command
                     'range' => config('User.range')[1]["range_id"]
                 ]);
                 SendMail::Send([$task->user_undertake->email], ['title' => "Nhiệm vụ mới", "tasks" => $task]);
-
                 $task->update(['processed' => config('Tasks.processed')['old']]); // update  processed
 
             } else {

@@ -27,7 +27,7 @@ class UserSeeder extends Seeder
             "user_type" => 1,
             "email" => "lechuhuuha@gmail.com",
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-            "role_id" => 2,
+            "role_id" => 3,
             "status" => "1"
         ]);
         User::factory()->count(50)->create();

@@ -18,23 +18,23 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         Model::reguard();
-        // $this->call(Permission::class);
-        // $this->call(Role::class);
-        // $this->call(ProjectSeeder::class);
-        // $this->call(BuildingSeeder::class);
-        // $this->call(FloorSeeder::class);
-        // $this->call(RoomTypeSeeder::class);
-         $this->call(RoomSeeder::class);
-        // $this->call(BedSeeder::class);
-        // $this->call(Asset_typeSeeder::class);
-        // $this->call(Unit_assetSeeder::class);
-        // $this->call(ProducerSeeder::class);
-        // $this->call(AssetSeeder::class);
-        // $this->call(UserSeeder::class);
-        // $this->call(ReceiptsReasonSeeder::class);
-        // $this->call(ReceiptsSeeder::class);
-        // $this->call(TypeAnnouceSeeder::class);
-        // $this->call(AnnouncementSeeder::class);
+//         $this->call(Permission::class);
+//         $this->call(Role::class);
+//         $this->call(ProjectSeeder::class);
+//         $this->call(BuildingSeeder::class);
+//         $this->call(FloorSeeder::class);
+//         $this->call(RoomTypeSeeder::class);
+//          $this->call(RoomSeeder::class);
+//         $this->call(BedSeeder::class);
+        $this->call(Asset_typeSeeder::class);
+        $this->call(Unit_assetSeeder::class);
+        $this->call(ProducerSeeder::class);
+        $this->call(AssetSeeder::class);
+        $this->call(UserSeeder::class);
+        $this->call(ReceiptsReasonSeeder::class);
+        $this->call(ReceiptsSeeder::class);
+        $this->call(TypeAnnouceSeeder::class);
+        $this->call(AnnouncementSeeder::class);
         Model::reguard();
     }
 }
